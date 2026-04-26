@@ -1,0 +1,75 @@
+
+# WhatsApp Spam Classification – Week 1
+
+## Course Code
+902
+
+## Assignment Title
+WhatsApp Message Spam Classification – Text Preprocessing and Visualization
+
+---
+
+## Assignment Overview
+This assignment focuses on preprocessing WhatsApp/SMS messages to prepare them
+for spam classification. Each message is labelled as either **Spam** or **Ham
+(Not Spam)**.
+
+The objective is to clean raw message text and understand data patterns before
+applying any machine learning model.
+
+---
+
+## Dataset
+- Source: UCI Machine Learning Repository
+- Total messages: 5,572
+- Labels:
+  - Spam
+  - Ham
+
+---
+
+## Tasks Performed
+- Loaded and explored the dataset
+- Analyzed Spam vs Ham distribution
+- Calculated message length
+- Text preprocessing steps:
+  - Converted text to lowercase
+  - Removed URLs and phone numbers
+  - Removed punctuation and extra spaces
+  - Tokenized text into words
+  - Removed stopwords and short words
+- Visualized results using a Streamlit dashboard
+
+---
+
+## Files in This Folder
+- `whatsapp_spam_preprocessing.ipynb`  
+  Jupyter/Colab notebook containing all preprocessing steps
+
+- `whatsapp_spam_app.py`  
+  Streamlit dashboard used for visualization
+
+---
+
+## Tools and Libraries Used
+- Python
+- Pandas
+- NLTK
+- Matplotlib
+- Seaborn
+- Streamlit
+
+---
+
+## Dashboard Visualization
+A Streamlit dashboard was created to visualize:
+- Spam vs Ham message distribution
+- Message length comparison
+
+The dashboard helps in understanding the dataset visually.
+
+---
+
+## Note
+This submission focuses only on preprocessing and visualization as part of the
+Week 1 assignment. No machine learning model has been trained.
