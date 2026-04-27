@@ -34,7 +34,6 @@ applying any machine learning model.
 - Calculated message length
 - Text preprocessing steps:
   - Converted text to lowercase
-  - Removed URLs and phone numbers
   - Removed punctuation and extra spaces
   - Tokenized text into words
   - Removed stopwords and short words
